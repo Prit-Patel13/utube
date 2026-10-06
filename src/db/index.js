@@ -9,5 +9,5 @@ const connectDB = async () => {
   } catch (error) {
     console.log("MONGODB connection error", error);
   }
-};
+};  
 export default connectDB;
